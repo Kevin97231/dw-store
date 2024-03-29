@@ -2,7 +2,6 @@ import "./App.css";
 import { Footer } from "./components/Footer";
 import { NavBar } from "./components/NavBar";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Product } from "./components/view/Product";
 
 function App() {
     return(
@@ -16,7 +15,6 @@ function App() {
            <BrowserRouter>
             <Routes>
               <Route path='/' element={<>Homepage</>}/>
-              <Route path='/products' element={<Product/>}/>
               </Routes>
           </BrowserRouter>
         </div>
