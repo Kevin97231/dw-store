@@ -13,6 +13,9 @@ export const NavBar = () => {
                   <li>
                     <HeaderItem href={"/counter-store"}>Compteur avec Store</HeaderItem>
                   </li>
+                  <li>
+                    <HeaderItem href={"/correction"}>Correction exercice avec pop-up</HeaderItem>
+                  </li>
                 </ul>
               </div>
             </nav>
